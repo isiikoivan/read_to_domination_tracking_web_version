@@ -84,27 +84,20 @@ caption {
 }
 
 .button_create {
-    width: fit-content;
-    display: inline-flex;
-    align-items: center;
-    /*border-radius: 0.5em;*/
-    /*height: 2em;*/
-    padding:.25em;
-    margin-top: 0.15em;
+
+    border-radius: 0.5em;
+    padding:.35em;
     border: none;
     background-color: #6c757d;
     color: white;
     cursor: pointer;
     text-decoration: none;
-align-items: center;
-    justify-content: center;
     transition: background-color 0.2s ease;
-    border-radius: .5em;
 
 }
 .button_create:hover{
     color: white;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 0.2s ease-in; /* optional for smooth scaling */
 
 }
@@ -157,4 +150,11 @@ input[type="checkbox"] {
 
 }
 
-
+.create_button_layer{
+display: flex;
+    justify-content: flex-end;
+    margin-top: .5em;
+}
+i{
+    margin-inline-end: 1em;
+}

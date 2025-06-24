@@ -19,7 +19,9 @@ h2 {
 hr {
     margin: 0;
 }
-
+i{
+    margin-inline-end: 1em;
+}
 
 
 table {
@@ -81,4 +83,23 @@ caption {
     /*caption-side: bottom;*/
     padding: 10px;
     font-weight: bold;
+}
+
+.create_button_layer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: .5em;
+}
+
+.button_create {
+
+    border-radius: 0.5em;
+    padding:.35em;
+    border: none;
+    background-color: #6c757d;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+
 }

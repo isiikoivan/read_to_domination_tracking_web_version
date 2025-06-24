@@ -110,7 +110,7 @@ i {
 
 .chapter_card {
     border: 1px solid rgba(0, 0, 0, 0.63);
-    width: 400px    ;
+    width: 100%    ;
     /*position: relative;*/
     min-height: 40px;
     border-radius: 5px;
@@ -121,6 +121,7 @@ i {
     align-items: center;
     margin: .2em;
     transition: .2s ease-in;
+    /*flex-wrap: wrap;*/
 
 
 }
@@ -143,4 +144,31 @@ i {
     flex-wrap: wrap;
     width: 100%;
     margin-top: .5em;
+}
+
+.header_controller{
+    display: flex;
+    flex-direction: row;
+}
+
+.chapter_card span{
+    flex-direction: row;
+    display: inline-flex;
+    /*border: #0056b3 solid 1px;*/
+    width: 8% ;
+}
+
+.chapter_card p{
+    width: 90%;
+    flex-direction: row;
+    display: inline-flex;
+    /*border: #0056b3 solid 1px;*/
+
+}
+.chapter_card input{
+    width: 2%;
+    flex-direction: row;
+    display: inline-flex;
+    /*border: #0056b3 solid 1px;*/
+
 }

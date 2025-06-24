@@ -57,10 +57,28 @@ button {
 
 
 }
+.button_login_link {
+    width: 100%;
+    border-radius: 0.4em;
+    margin: 0.25em;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+
+}
 
 button:hover {
     background-color: #0056b3;
 }
 
+i{
+    margin-inline-end: 1em;
+}
 
 

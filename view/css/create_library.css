@@ -93,3 +93,7 @@ button:hover {
 display: flex;
     align-items: center;
 }
+
+i{
+    margin-inline-end: 1em;
+}
