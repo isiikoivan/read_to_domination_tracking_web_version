@@ -1,0 +1,160 @@
+/* HTML & Body */
+html, body {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.body_frame {
+    /* background: aqua; */
+    padding: 2em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+
+}
+
+hr {
+    margin: 0;
+}
+
+
+
+table {
+    width: 100%;
+    margin-top: 1em;
+    border-collapse: collapse;
+}
+
+thead {
+    display: flex;
+}
+
+thead tr {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+thead tr th {
+    flex: 1;
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: left;
+}
+
+thead tr th:last-child {
+    flex: 1;
+    /*border: 1px solid darkolivegreen;*/
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+tbody tr {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+tbody tr td{
+    margin-top: .25em;
+    flex: 1;
+    padding: 0.5em;
+    text-align: left;
+    border: 0.01rem solid black;
+
+}
+
+tbody tr td:last-child{
+    flex: 1;
+    padding: 0.5em;
+    text-align: center;
+}
+
+caption {
+    /*caption-side: bottom;*/
+    padding: 10px;
+    font-weight: bold;
+}
+
+.button_create {
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    /*border-radius: 0.5em;*/
+    /*height: 2em;*/
+    padding:.25em;
+    margin-top: 0.15em;
+    border: none;
+    background-color: #6c757d;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+    border-radius: .5em;
+
+}
+.button_create:hover{
+    color: white;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+.edit_button{
+    color: #007bff;
+    cursor: pointer;
+
+}
+.edit_button:hover{
+    color: #007bff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+
+.delete_button{
+color:#dc3545;
+    cursor: pointer;
+
+}
+
+.delete_button:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+
+.button_save{
+color:#28a745;
+    cursor: pointer;
+
+
+}
+.button_save:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+input[type="checkbox"]:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+}
+input[type="checkbox"] {
+    cursor: pointer;
+
+}
+
+
