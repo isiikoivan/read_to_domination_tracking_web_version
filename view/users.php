@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Users</title>
-    <link rel="stylesheet" href="css/users.css" type="text/css">
-    <link rel="stylesheet" href="../fontawesome_6/all.css" type="text/css">
 
-</head>
-<body>
 <div class="body_frame">
     <h2>Users</h2>
     <hr>
@@ -55,5 +46,3 @@
     </table>
 </div>
 
-</body>
-</html>

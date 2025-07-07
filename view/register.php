@@ -1,3 +1,9 @@
+<?php
+$userData=['username'];
+$isUpdate = isset($userData);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,6 +44,22 @@
         <button><i class="fa-solid fa-floppy-disk button_save icon_space"></i> Save</button>
         <a class="button_login_link" href="login.html"><i class="fa-solid fa-door-open icon_space"></i> Login</a>
     </div>
+
+    <form method="post" action="index">
+        <input type="hidden" name="action" value="<?= $isUpdate ? 'update' : 'register' ?>">
+
+        <?php if ($isUpdate): ?>
+        <input type="hidden" name="user_id" value="<?= htmlspecialchars($userData['id']) ?>">
+        <?php endif; ?>
+
+        <label>Username:</label>
+        <input type="text" name="username" value="<?= htmlspecialchars($userData['username'] ?? '') ?>">
+
+        <label>Email:</label>
+        <input type="email" name="email" value="<?= htmlspecialchars($userData['email'] ?? '') ?>">
+
+        <button type="submit"><?= $isUpdate ? 'Update' : 'Register' ?></button>
+    </form>
 
 </div>
 </body>

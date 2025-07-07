@@ -43,10 +43,10 @@
             <td>20/24/2025</td>
             <td><input type="checkbox"/></td>
             <td>
-                <a class="button_update" href="">
+                <a class="button_update" href="#">
                 <i class="fa-solid fa-pen-to-square edit_button icon_space"></i>
                 </a>
-                <a class="button_delete"href="">
+                <a class="button_delete"href="#">
                     <i class="fa-solid fa-trash delete_button icon_space"></i>
                 </a>
             </td>

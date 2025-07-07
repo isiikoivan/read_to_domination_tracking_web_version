@@ -1,3 +1,53 @@
 .icon_space{
-    margin-inline-end: 1em;
+    color: black;
+}
+
+.container{
+    color: #0056b3;
+    /*border: solid 2px blue;*/
+    height: 100vh;
+    /*width: 100vw;*/
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position:static;
+}
+
+.container  .sidebar-container{
+    border: 2px solid green;
+    width: inherit;
+    /*height: inherit;*/
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start ;
+}
+
+.container  .sidebar-container a  {
+    display: flex;
+    flex-direction: row;
+    /*border: black solid .02px;*/
+    /*box-shadow: rgba(1, 1, 1, 1);*/
+    /*margin-top: .25em;*/
+    align-items: start;
+    justify-content: center ;
+    width: fit-content;
+    color: black;
+    margin: 1em;
+
+    text-decoration: none;
+        /*margin-bottom: .5em;*/
+        color: black;
+        align-self: center;
+    cursor:pointer;
+
+
+}
+
+
+.container  .main-container{
+    border: 2px solid black;
+    width: inherit;
+    height: inherit;
 }
