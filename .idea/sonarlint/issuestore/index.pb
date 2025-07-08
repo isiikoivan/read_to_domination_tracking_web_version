@@ -3,16 +3,6 @@ I
 view/css/create_verse.css,7/f/7f183286337883273d6d01988bad345c9268084a
 K
 view/css/create_library.css,d/c/dcc5ae3c3e9d64bbb0c8423f79635657b751c024
-K
-view/css/create_chapter.css,1/2/1274ac3607e68c9142f439beda3cee1e2630f595
-H
-view/css/create_book.css,6/1/614ee47da1153f9b8999fa53c25415eedaa3dbaf
-D
-view/css/chapter.css,5/9/59cd8b52daf524b745f633570289a5ce61a040f0
-B
-view/css/verse.css,4/8/4825dbc583007d65b4aadadc01c4c808f054b4f5
-B
-view/css/users.css,0/9/09e1b7a158fa4855af93555f0ca7e7faf51d51b0
 E
 view/css/register.css,c/a/ca5a151c02dc472c61f259b23b837e025baccc1b
 B
@@ -31,3 +21,19 @@ I
 db/DatabaseConnection.php,d/d/ddbbaf24713f51755fba799b1f2ca2bc3cf18641
 H
 view/create_library.html,1/b/1bafd1c73611264c542a062481022830ccb55dec
+D
+view/css/library.css,2/8/288e7b833e286bf7344d959cece1f985fd641718
+A
+js/jquery3.7.1.js,8/9/8903fefa9f03814d0d7efdd49350096b749330ed
+P
+ business_logic/BusinessLogic.php,d/3/d3dfb425df6436860068e2ac62788892091dd300
+M
+controller/BaseController.php,0/2/023b5f27ad08fdf382db21873e540c99961d0185
+E
+dispatcher/routes.php,6/1/61ba1e3490392643c7cec25914127e2b1cfc0bb9
+W
+'controller/PageNavigationController.php,a/7/a7344925c27803189a7df61ff3b3b9f407505967
+H
+view/forgot_password.php,c/5/c5a258640572e7569ce57b88875a3bca2c454718
+>
+view/login.php,6/6/66a72686a65b3af42de3450bebb7b5af2ebde0f3

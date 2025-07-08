@@ -1,32 +1,38 @@
-
 <div class="body_frame">
-    <h2>Users</h2>
-    <hr>
-    <div class="create_button_layer" >
-        <a href="register.html" class="button_create">
+    <div class="create_button_layer" style="display: flex;justify-content: space-between">
+
+        <div class="button_create">
+          <span>
+            <i class="fa-solid fa-users"></i>  Users
+          </span>
+        </div>
+
+        <div class="button_create">
+            <a href="register.html" class="button_create">
           <span>
             <i class="fa-solid fa-plus"></i>  Create
           </span>
-        </a>
+            </a>
+        </div>
+
 
     </div>
     <table>
-        <caption>System Users </caption>
-            <thead>
-            <tr>
-               <th scope="col">Full Name</th>
-               <th scope="col">User Name</th>
-               <th scope="col">Email</th>
-               <th scope="col">Phone Number</th>
-               <th scope="col">System User Code</th>
-               <th scope="col">Date of Birth</th>
-               <th scope="col">Date Created</th>
-               <th scope="col">Status</th>
-               <th scope="col">Deleted</th>
-               <th scope="col">Archived</th>
-                <th scope="col">Action</th>
-            </tr>
-            </thead>
+        <thead>
+        <tr>
+            <th scope="col">Full Name</th>
+            <th scope="col">User Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">System User Code</th>
+            <th scope="col">Date of Birth</th>
+            <th scope="col">Date Created</th>
+            <th scope="col">Status</th>
+            <th scope="col">Deleted</th>
+            <th scope="col">Archived</th>
+            <th scope="col">Action</th>
+        </tr>
+        </thead>
         <tbody>
         <tr>
             <td>Isiiko Ivan</td>
@@ -39,7 +45,8 @@
             <td><input type="checkbox"/></td>
             <td><input type="checkbox"/></td>
             <td><input type="checkbox"/></td>
-            <td><a href="register.html" class="button_update"><i class="fa-solid fa-pen-to-square edit_button"></i></a>  <a href="" class="button_delete"><i class="fa-solid fa-trash delete_button"></i></a>  </td>
+            <td><a href="register.html" class="button_update"><i class="fa-solid fa-pen-to-square edit_button"></i></a>
+                <a href="" class="button_delete"><i class="fa-solid fa-trash delete_button"></i></a></td>
         </tr>
         </tbody>
 

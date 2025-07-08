@@ -1,14 +1,8 @@
-/* HTML & Body */
-html, body {
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
 
-.body_frame {
-    /* background: aqua; */
-    padding: 2em;
-}
+/*.body_frame {*/
+/*    !* background: aqua; *!*/
+/*    padding: 2em;*/
+/*}*/
 
 h2 {
     margin: 0;
@@ -81,6 +75,8 @@ caption {
     /*caption-side: bottom;*/
     padding: 10px;
     font-weight: bold;
+    align-self: flex-start;
+
 }
 
 .button_create {
@@ -151,10 +147,15 @@ input[type="checkbox"] {
 }
 
 .create_button_layer{
+    border: black solid 2px;
 display: flex;
-    justify-content: flex-end;
-    margin-top: .5em;
+    justify-content: space-between;
+
+    /*margin-top: .5em;*/
+
 }
+
+
 .icon_space{
     margin-inline-end: 1em;
 }

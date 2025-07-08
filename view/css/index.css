@@ -12,10 +12,10 @@
     margin: 0;
     padding: 0;
     position:static;
+
 }
 
 .container  .sidebar-container{
-    border: 2px solid green;
     width: inherit;
     /*height: inherit;*/
     display: flex;
@@ -25,6 +25,7 @@
 }
 
 .container  .sidebar-container a  {
+
     display: flex;
     flex-direction: row;
     /*border: black solid .02px;*/
@@ -38,7 +39,7 @@
 
     text-decoration: none;
         /*margin-bottom: .5em;*/
-        color: black;
+        /*color: black;*/
         align-self: center;
     cursor:pointer;
 
@@ -47,7 +48,7 @@
 
 
 .container  .main-container{
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     width: inherit;
     height: inherit;
 }
