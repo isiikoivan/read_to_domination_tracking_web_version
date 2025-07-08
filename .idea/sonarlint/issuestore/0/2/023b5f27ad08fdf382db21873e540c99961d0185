@@ -1,0 +1,22 @@
+
+R	php:S1808"=Move this open curly brace to the beginning of the next line.(¬é¶ü
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(»¸–’ıÿÿÿÿ
+R	php:S1808"=Move this open curly brace to the beginning of the next line.(Â½Š
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(ö™©„øÿÿÿÿ
+W	php:S1808!"=Move this open curly brace to the beginning of the next line.(Ö…­¢úÿÿÿÿ
+Q	php:S1808&"=Move this open curly brace to the beginning of the next line.(“ÛÉg
+R	php:S18082"=Move this open curly brace to the beginning of the next line.(»²Ä”
+R	php:S18085"=Move this open curly brace to the beginning of the next line.(öıê•
+jphp:S1005"VRename function "library_display" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(öıê•
+?	php:S1481"+Remove this unused "$users" local variable.(ÎÂÎA
+G	php:S1172!"-Remove the unused function parameter "$data".(Ö…­¢úÿÿÿÿ
+;	php:S2003"&Replace "require" with "require_once".(ËÈÕø
+;	php:S2003"&Replace "require" with "require_once".(«»ï‡
+@	php:S20033"&Replace "require" with "require_once".(‡©ƒúÿÿÿÿ
+@	php:S20037"&Replace "require" with "require_once".(ÿñûıÿÿÿÿ
+3php:S1256"Remove this commented out code.(°æ°•
+8php:S125;"Remove this commented out code.(¶ö«úÿÿÿÿ
+a	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(ËÈÕø
+a	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(«»ï‡
+f	php:S48333"LReplace "require" with namespace import mechanism through the "use" keyword.(‡©ƒúÿÿÿÿ
+f	php:S48337"LReplace "require" with namespace import mechanism through the "use" keyword.(ÿñûıÿÿÿÿ

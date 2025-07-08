@@ -1,0 +1,5 @@
+
+kphp:S103"KSplit this 122 characters long line (which is greater than 120 authorized).(ışµùÿÿÿÿ8‘•å¯ú2
+fphp:S103"KSplit this 178 characters long line (which is greater than 120 authorized).(Æ¹ğ8‘•å¯ú2
+qphp:S116"QRename this field "$db_name" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ä¬Êæüÿÿÿÿ8’•å¯ú2
+€	php:S1488 "_Immediately return this expression instead of assigning it to the temporary variable "$result".(šï¢¤øÿÿÿÿ8’•å¯ú2
