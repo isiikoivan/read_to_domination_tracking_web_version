@@ -1,0 +1,40 @@
+.sidebar-container{
+    background: #007bff;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    /*margin-top: 1em;*/
+
+}
+
+.sidebar-container a{
+    color: white;
+    margin-right: 1em !important;
+    /*border-left: 3px solid white;*/
+
+
+
+}
+.sidebar-container a span{
+    letter-spacing: .25em;
+    /*margin-left: .5em;*/
+
+
+}
+
+.sidebar-container a i{
+    margin-right: .5em !important;
+}
+a:hover{
+    color: black;
+    margin-right: 1em !important;
+
+}
+
+
+.sidebar-container a:last-child{
+    /*border: #eeeeee 2px solid;*/
+    margin-left: auto;
+
+}
+

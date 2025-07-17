@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Add Book</title>
-    <link href="css/create_book.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../fontawesome_6/all.css" type="text/css">
 
-</head>
-<body>
+<div class="form_page">
 <div class="register_class">
     <h5><i class="fa-solid fa-plus"></i> Create Book</h5>
-    <hr>
+<!--    <hr>-->
 
     <div class="row_setup">
 
         <input type="text" placeholder="Book Name" />
     </div>
     <div class="row_setup">
-        <select name="library" id="library">
+        <select name="library" id="library_dropdown">
             <option value="">Select Library</option>
             <option value="saab">library 2</option>
             <option value="opel">library 3</option>
@@ -30,5 +22,5 @@
     </div>
 
 </div>
-</body>
-</html>
+</div>
+

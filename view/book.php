@@ -1,25 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>BOOK</title>
-    <link rel="stylesheet" href="css/book.css" type="text/css">
-    <link rel="stylesheet" href="../fontawesome_6/all.css" type="text/css">
-</head>
-<body>
+
 <div class="body_frame">
-    <h2>Books</h2>
-    <hr>
-    <div class="create_button_layer" >
-        <a href="create_book.html" class="button_create">
+    <div class="header_layer">
+
+        <div class="page_label">
+          <span>
+            <i class="fa-solid fa-book-open"></i>  Book(s)
+          </span>
+        </div>
+
+        <div class="button_create">
+            <a id="create_book">
           <span>
             <i class="fa-solid fa-plus"></i>  Create
           </span>
-        </a>
+            </a>
+        </div>
+
 
     </div>
     <table>
-        <caption>Book List</caption>
             <thead>
             <tr>
                <th scope="col">Name</th>
@@ -49,5 +48,3 @@
     </table>
 </div>
 
-</body>
-</html>

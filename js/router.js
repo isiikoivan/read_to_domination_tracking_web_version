@@ -1,16 +1,9 @@
 $(document).on('click', '#dashboard', function (e) {
     e.preventDefault();
     console.log("dashboard");
-
-    // Load the dashboard content
-    $('.main-container').load('view/dashboard.php');
-    $('<link>')
-        .appendTo('head')
-        .attr({
-            type: 'text/css',
-            rel: 'stylesheet',
-                href: 'view/css/index.css'
-        });
+    let url = 'view/dashboard.php';
+    let style_files = ['fontawesome_6/all.css','view/css/dashboard.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
 
 });
 
@@ -18,54 +11,65 @@ $(document).on('click', '#dashboard', function (e) {
 $(document).on('click', '#library', function (e) {
     e.preventDefault();
     console.log("library");
-    $('.main-container').load('view/library.php')
-    $('<link>')
-        .appendTo('head')
-        .attr({
-            type: 'text/css',
-            rel: 'stylesheet',
-            href: 'view/css/library.css'
-        });
+    let url = 'view/library.php';
+    let style_files = ['fontawesome_6/all.css','view/css/library.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
 
 })
 
-$(document).on('click', '#profile', function (e) {
+$(document).on('click', '#users', function (e) {
     e.preventDefault();
-    console.log("profile");
-    $('.main-container').load('view/profile.php')
+    console.log("users");
+    let url = 'view/users.php';
+    let style_files = ['fontawesome_6/all.css','view/css/users.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
 
 })
+$(document).on('click', '#library_create', function (e) {
+    e.preventDefault();
+    console.log("create library");
+    let url = 'view/create_library.php';
+    let style_files = ['fontawesome_6/all.css','view/css/create_library.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
+
+$(document).on('click', '#library_book_link', function (e) {
+    e.preventDefault();
+    console.log(" to books ");
+    let url = 'view/book.php';
+    let style_files = ['fontawesome_6/all.css','view/css/book.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
+
+$(document).on('click', '#create_book', function (e) {
+    e.preventDefault();
+    console.log(" to books ");
+    let url = 'view/create_book.php';
+    let style_files = ['fontawesome_6/all.css','view/css/create_book.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
+$(document).on('click', '#create_user', function (e) {
+    e.preventDefault();
+    console.log(" to create ");
+    let url = 'view/register.php';
+    let style_files = ['fontawesome_6/all.css','view/css/register.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
+
 
 $(document).on('click', '#logout', function (e) {
     e.preventDefault();
-    console.log("logout");
-    $('.main-container').load('view/logout.php')
 
 })
 
-$(document).on('click', '#recent', function (e) {
-    e.preventDefault();
-    console.log("recent");
-    $('.main-container').load('view/users.php')
-    $('<link>')
-        .appendTo('head')
-        .attr({
-            type: 'text/css',
-            rel: 'stylesheet',
-            href: 'view/css/users.css'
-        });
 
-})
-// $(document).ready(function () {
-//     $('#dashboard').on('click', function (e) {
-//         // e.preventDefault();
-//         console.log("food");
-//     });
-// });
-// Button navigation to pages function
-function anchorNavigationToNextPage(button_id, next_page_url, css_files) {
-    $(document).on('click', `#${button_id}`, function (e) {
-        e.preventDefault();
+
+function navigationToNextPage(next_page_url, css_files) {
         console.log(`Navigating to ${next_page_url}`);
 
         // Load the next page into the container
@@ -75,6 +79,7 @@ function anchorNavigationToNextPage(button_id, next_page_url, css_files) {
         $('link.dynamic-style').remove();
 
         // Add each CSS file passed in the array
+
         css_files.forEach(function (css_file) {
             $('<link>', {
                 rel: 'stylesheet',
@@ -83,12 +88,5 @@ function anchorNavigationToNextPage(button_id, next_page_url, css_files) {
                 class: 'dynamic-style'
             }).appendTo('head');
         });
-    });
-}
 
-// usage
-// anchorNavigationToNextPage(
-//     'dashboard',
-//     'view/dashboard.php',
-//     ['view/css/index.css', 'view/css/users.css']
-// );
+}

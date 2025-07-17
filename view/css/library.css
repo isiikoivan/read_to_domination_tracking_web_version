@@ -1,27 +1,35 @@
-/* HTML & Body */
-html, body {
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .body_frame {
-    /* background: aqua; */
-    padding: 2em;
+    /*background: aqua;*/
+    padding-inline: 2em;
+    margin-top: .5em;
 }
 
-h2 {
-    margin: 0;
-    font-size: 18px;
+
+.header_layer{
+    /*border: black solid 2px !important;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    /*margin-top: .5em;*/
 
 }
 
-hr {
-    margin: 0;
+.header_layer  .page_label{
+    /*border: black solid 2px !important;*/
+    color: #007bff;
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    /*font-size:1.5em ;*/
+    letter-spacing: .3em;
+    border-left: #007bff solid 4px;
+    padding-inline-start: .5em;
+
+    /*margin-top: .5em;*/
+
 }
-.icon_space{
-    margin-inline-end: 1em;
-}
+
 
 
 table {
@@ -47,6 +55,10 @@ thead tr th {
     border: 1px solid black;
     padding: 0.5em;
     text-align: left;
+    flex-wrap: nowrap;
+    font-variant-caps: all-small-caps;
+    font-weight: normal;
+
 }
 
 thead tr th:last-child {
@@ -77,29 +89,86 @@ tbody tr td:last-child{
     flex: 1;
     padding: 0.5em;
     text-align: center;
+    /*margin-inline: 1em;*/
 }
 
-caption {
-    /*caption-side: bottom;*/
-    padding: 10px;
-    font-weight: bold;
-}
 
-.create_button_layer{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: .5em;
-}
 
 .button_create {
-
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     padding:.35em;
     border: none;
-    background-color: #6c757d;
+    background-color: green;
     color: white;
     cursor: pointer;
     text-decoration: none;
     transition: background-color 0.2s ease;
+    width: fit-content;
 
 }
+.button_create a {
+    text-decoration: none;
+    color: white;
+}
+.button_create:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+
+}
+.button_create a:hover{
+    color: white;
+
+}
+
+
+/*button:hover {*/
+/*    background-color: #0056b3;*/
+/*}*/
+.edit_button{
+    color: #007bff;
+    cursor: pointer;
+
+}
+.edit_button:hover{
+    color: #007bff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+
+.delete_button{
+    color:#dc3545;
+    cursor: pointer;
+
+}
+
+.delete_button:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+
+.button_save{
+    color:#28a745;
+    cursor: pointer;
+
+
+}
+.button_save:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+input[type="checkbox"]:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+}
+input[type="checkbox"] {
+    cursor: pointer;
+
+}
+
+
+

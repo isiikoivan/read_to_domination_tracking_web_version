@@ -1,26 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Library</title>
-    <link href="css/book.css" rel="stylesheet" type="text/css">
-    <link href="../fontawesome_6/all.css" rel="stylesheet" type="text/css">
-
-</head>
-<body>
 <div class="body_frame">
-    <h2>Library</h2>
-    <hr>
-    <div class="create_button_layer" >
-        <a href="create_library.html" class="button_create">
+    <div class="header_layer">
+
+        <div class="page_label">
           <span>
-            <i class="fa-solid fa-plus"></i>Create
+            <i class="fa-solid fa-water"></i>  Library
           </span>
-        </a>
+        </div>
+
+        <div class="button_create">
+            <a id="library_create">
+          <span>
+            <i class="fa-solid fa-plus"></i>  Create
+          </span>
+            </a>
+        </div>
+
 
     </div>
     <table>
-        <caption>Store</caption>
         <thead>
         <tr>
             <th scope="col">Name</th>
@@ -35,7 +32,7 @@
         </thead>
         <tbody>
         <tr>
-            <td>Things Fall Apart</td>
+            <td><a id="library_book_link">Things Fall Apart</a></td>
             <td>TFA</td>
             <td>Ivan</td>
             <td>Chinewa Achebe</td>
@@ -43,11 +40,14 @@
             <td>20/24/2025</td>
             <td><input type="checkbox"/></td>
             <td>
-                <a class="button_update" href="#">
-                <i class="fa-solid fa-pen-to-square edit_button icon_space"></i>
+                <a class="button_update" >
+                    <i class="fa-solid fa-pen-to-square edit_button icon_space"></i>
                 </a>
-                <a class="button_delete"href="#">
+                <a class="button_delete" >
                     <i class="fa-solid fa-trash delete_button icon_space"></i>
+                </a>
+                <a class="button_view" title="view book(s)" id="library_book_link">
+                    <i class="fa-solid fa-arrow-alt-circle-right view_button icon_space"></i>
                 </a>
             </td>
 
@@ -57,5 +57,3 @@
     </table>
 </div>
 
-</body>
-</html>

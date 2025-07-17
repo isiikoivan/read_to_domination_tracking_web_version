@@ -15,9 +15,7 @@ require_once 'db/DatabaseConnection.php';
 <!DOCTYPE html>
 <html>
 <head id="header_id">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="view/css/index.css" type="text/css">
-    <link rel="stylesheet" href="fontawesome_6/all.css" type="text/css">
+    <title>book</title>
 
 </head>
 <body>
@@ -27,30 +25,22 @@ require_once 'db/DatabaseConnection.php';
     <div class="sidebar-container">
 
         <a id="dashboard">
-            <span><i class="fa fa-fire icon_space"></i>Dashboard </span>
+            <span><i class="fa fa-gauge icon_space"></i>Dashboard </span>
         </a>
 
         <a id="library">
-       <span>
-           <i class="fa fa-water icon_space"></i>Library
-       </span>
+            <span><i class="fa fa-water icon_space"></i>Library</span>
+        </a>
+        <a id="library_book_link">
+            <span><i class="fa fa-book-open"></i>Book(s)</span>
         </a>
 
-        <a  id="profile">
-        <span>
-       <i class="fa fa-book-open-reader icon_space"></i>Profile
-       </span>
+        <a id="users">
+            <span><i class="fa fa-users"></i>User(s)</span>
         </a>
 
         <a id="logout">
-       <span>
-        <i class="fa fa-power-off icon_space"></i>Log out
-       </span>
-        </a>
-        <a id="recent">
-       <span>
-           <i class="fa fa-fire icon_space"></i>Recents
-       </span>
+            <span><i class="fa fa-power-off icon_space"></i>Log out</span>
         </a>
 
     </div>

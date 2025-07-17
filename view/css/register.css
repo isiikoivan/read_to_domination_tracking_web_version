@@ -1,4 +1,4 @@
-html, body {
+.form_page {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -14,14 +14,15 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 60%;
+    /*justify-self: center;*/
 
 }
 
 h5, hr {
     margin: .5em;
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
 
 }
 
@@ -79,6 +80,83 @@ button:hover {
 
 .icon_space{
     margin-inline-end: 1em;
+}
+
+
+button_create {
+    border-radius: 0.2em;
+    padding:.35em;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    width: fit-content;
+
+}
+.button_create a {
+    text-decoration: none;
+    color: white;
+}
+.button_create:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+
+}
+.button_create a:hover{
+    color: white;
+
+}
+
+
+/*button:hover {*/
+/*    background-color: #0056b3;*/
+/*}*/
+.edit_button{
+    color: #007bff;
+    cursor: pointer;
+
+}
+.edit_button:hover{
+    color: #007bff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+
+.delete_button{
+    color:#dc3545;
+    cursor: pointer;
+
+}
+
+.delete_button:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+
+.button_save{
+    color:#28a745;
+    cursor: pointer;
+
+
+}
+.button_save:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+
+}
+input[type="checkbox"]:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in; /* optional for smooth scaling */
+}
+input[type="checkbox"] {
+    cursor: pointer;
+
 }
 
 

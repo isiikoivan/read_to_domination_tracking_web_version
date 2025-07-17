@@ -1,20 +1,19 @@
 <div class="body_frame">
-    <div class="create_button_layer" style="display: flex;justify-content: space-between">
+    <div class="header_layer">
 
-        <div class="button_create">
+        <div class="page_label">
           <span>
             <i class="fa-solid fa-users"></i>  Users
           </span>
         </div>
 
         <div class="button_create">
-            <a href="register.html" class="button_create">
+            <a id="create_user">
           <span>
             <i class="fa-solid fa-plus"></i>  Create
           </span>
             </a>
         </div>
-
 
     </div>
     <table>

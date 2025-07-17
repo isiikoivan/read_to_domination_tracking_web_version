@@ -1,22 +1,14 @@
 <?php
-$userData=['username'];
-$isUpdate = isset($userData);
+//$userData=['username'];
+$userData=null;
+//$isUpdate = isset($userData);
+$isUpdate = null;
 ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Register</title>
-    <link href="css/register.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../fontawesome_6/all.css" type="text/css">
-
-</head>
-<body>
+<div class="form_page">
 <div class="register_class">
-    <h5>Create Account</h5>
-    <hr>
+    <h5> <i class="fa-solid fa-plus"></i> Create Account</h5>
 
     <div class="row_setup">
         <input type="text" placeholder="Salutation" />
@@ -41,7 +33,7 @@ $isUpdate = isset($userData);
         <input type="password" placeholder="Confirm Password" />
     </div>
     <div class="row_setup">
-        <button><i class="fa-solid fa-floppy-disk button_save icon_space"></i> Save</button>
+        <button><i class="fa-solid fa-floppy-disk  icon_space"></i> Save</button>
         <a class="button_login_link" href="login.html"><i class="fa-solid fa-door-open icon_space"></i> Login</a>
     </div>
 
@@ -62,5 +54,4 @@ $isUpdate = isset($userData);
     </form>
 
 </div>
-</body>
-</html>
+</div>
