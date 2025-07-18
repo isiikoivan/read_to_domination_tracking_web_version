@@ -72,6 +72,7 @@ $(document).on('click', '#book_chapter', function (e) {
 
 $(document).on('click', '#logout', function (e) {
     e.preventDefault();
+    console.log("log out")
 
 })
 
