@@ -1,28 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Chapters</title>
-    <link href="css/chapter.css" rel="stylesheet" type="text/css">
-    <link href="../fontawesome_6/all.css" rel="stylesheet" type="text/css">
+<div class="body_frame">
 
-</head>
-<body>
-<div class="chapter_frame">
-    <h2>Genesis </h2>
-    <hr>
-    <div class="create_button_layer">
-        <a class="button_create" href="create_chapter.html">
+    <div class="header_layer">
+
+        <div class="page_label">
+          <span>
+            <i class="fa-solid fa-book-open"></i>  Book(s)
+          </span>
+            <span>
+            <i class="fa-solid fa-book"></i>  Genesis
+          </span>
+        </div>
+
+        <div class="caption_aligner">
+            <caption>Chapters / Read 12 | Not Read 5 </caption>
+
+        </div>
+
+        <div class="button_create">
+            <a id="create_chapter">
           <span>
             <i class="fa-solid fa-plus"></i>  Create
           </span>
-        </a>
+            </a>
+        </div>
+
 
     </div>
-    <div class="caption_aligner">
-        <caption>(Chapters) (Read 12) (Not Read 5)</caption>
 
-    </div>
+
     <div class="chapter_controller">
         <div class="chapter_card">
             <span>Chapter. 1</span>
@@ -81,5 +86,3 @@
 
 </div>
 
-</body>
-</html>

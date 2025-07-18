@@ -60,6 +60,14 @@ $(document).on('click', '#create_user', function (e) {
     navigationToNextPage(url, style_files);
 
 })
+$(document).on('click', '#book_chapter', function (e) {
+    e.preventDefault();
+    console.log(" to chapter ");
+    let url = 'view/chapter.php';
+    let style_files = ['fontawesome_6/all.css','view/css/chapter.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
 
 
 $(document).on('click', '#logout', function (e) {

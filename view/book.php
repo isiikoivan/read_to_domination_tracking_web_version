@@ -34,14 +34,24 @@
             </thead>
         <tbody>
         <tr>
-            <td>Genesis</td>
+            <td><a id="book_chapter">Genesis</a></td>
             <td></td>
             <td>30</td>
             <td>20/24/2025</td>
             <td>0</td>
             <td><input type="checkbox"/></td>
             <td>Isiiko </td>
-            <td>view edit delete </td>
+            <td>
+                <a class="button_update" >
+                    <i class="fa-solid fa-pen-to-square edit_button icon_space"></i>
+                </a>
+                <a class="button_delete" >
+                    <i class="fa-solid fa-trash delete_button icon_space"></i>
+                </a>
+                <a class="button_view" title="view chapter(s)" id="book_chapter">
+                    <i class="fa-solid fa-arrow-alt-circle-right view_button icon_space"></i>
+                </a>
+            </td>
         </tr>
         </tbody>
 
