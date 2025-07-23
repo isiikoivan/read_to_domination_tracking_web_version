@@ -1,4 +1,4 @@
-html, body {
+.form_page {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -14,14 +14,16 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 60%;
+    /*width: 40%;*/
 
 }
+
 
 h5, hr {
     margin: .5em;
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
 
 }
 
@@ -31,12 +33,13 @@ h5{
 .row_setup{
     display: flex;
     flex-direction:row;
-    /*border: solid 1px blue;*/
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 100%;
 }
 
 
-input {
+input  {
     margin: .5em;
     width: 100%;
     border-radius: 0.5em;
@@ -64,11 +67,12 @@ input {
     background: none;
 }
 
+
 button {
-    width: 100%;
+    width: 25%;
     border-radius: 0.5em;
     height: 2em;
-    margin: 0.25em;
+    margin-top: 0.25em;
     border: none;
     background-color: #007bff;
     color: white;
@@ -80,6 +84,7 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
 
 
 .icon_space{

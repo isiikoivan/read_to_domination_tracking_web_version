@@ -1,0 +1,154 @@
+<?php
+?>
+
+
+<div class="main_card">
+                <input type="checkbox" id="mk"  />
+                <label for="mk" class="marker"> <span>^</span> </label>
+                <div class="content"></div>
+            </div>
+
+
+
+.main_card {
+width: 400px;
+position: relative;
+min-height: 40px;
+border: 2px solid #0056b3;
+border-radius: 5px;
+overflow: hidden;
+}
+
+.main_card > input[type="checkbox"] {
+appearance: none;
+display: none;
+}
+
+.content {
+height: 0;
+transition: 1s ease-in;
+}
+
+.marker {
+height: 40px;
+width: 100%;
+position: relative;
+top: 0;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+border: 1.3px solid #0056b3;
+padding-inline-end: 1em;
+transition: 1s ease-in;
+}
+
+.marker > span {
+margin-right: 1em;
+}
+
+.marker > span {
+display: inline-block;
+transform: rotateX(180deg);
+}
+
+#mk:checked ~ span {
+transform: rotateX(180deg) !important;
+
+}
+
+
+#mk:checked ~ .content {
+height: 250px;
+}
+
+
+.icon_space {
+margin-inline-end: 1em;
+}
+
+.create_button_layer {
+display: flex;
+justify-content: flex-end;
+margin-top: .5em;
+}
+
+.button_create {
+
+border-radius: 0.5em;
+padding: .35em;
+border: none;
+background-color: #6c757d;
+color: white;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.2s ease-in;
+
+}
+
+.chapter_card {
+border: 1px solid rgba(0, 0, 0, 0.63);
+width: 100%    ;
+/*position: relative;*/
+min-height: 40px;
+border-radius: 5px;
+/*overflow: hidden;*/
+display: flex;
+justify-content: space-between;
+padding-inline: .8em;
+align-items: center;
+margin: .2em;
+transition: .2s ease-in;
+/*flex-wrap: wrap;*/
+
+
+}
+
+.chapter_card:hover {
+transition: .2s ease-in;
+transform: scale(1.01);
+}
+
+.caption_aligner {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.chapter_controller {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+margin-top: .5em;
+}
+
+.header_controller{
+display: flex;
+flex-direction: row;
+}
+
+.chapter_card span{
+flex-direction: row;
+display: inline-flex;
+/*border: #0056b3 solid 1px;*/
+width: 8% ;
+}
+
+.chapter_card p{
+width: 90%;
+flex-direction: row;
+display: inline-flex;
+/*border: #0056b3 solid 1px;*/
+
+}
+.chapter_card input{
+width: 2%;
+flex-direction: row;
+display: inline-flex;
+/*border: #0056b3 solid 1px;*/
+
+}
+
+
+

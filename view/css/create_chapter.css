@@ -1,46 +1,29 @@
-.body_frame {
-    /*background: aqua;*/
-    padding-inline: 2em;
-    margin-top: .5em;
-}
-
-.header_layer{
-    /*border: black solid 2px !important;*/
+.form_page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
-
-    /*margin-top: .5em;*/
-
+    /*font-family: Arial, sans-serif;*/
 }
 
-.header_layer  .page_label{
-    /*border: black solid 2px !important;*/
-    color: #007bff;
-    font-variant-caps: all-small-caps;
-    font-weight: bold;
-    /*font-size:1.5em ;*/
-    letter-spacing: .3em;
-    border-left: #007bff solid 4px;
-    padding-inline-start: .5em;
-
-    /*margin-top: .5em;*/
-
-}
 .register_class {
     /*border: 1px solid blue;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 60%;
+    /*width: 40%;*/
 
 }
+
 
 h5, hr {
     margin: .5em;
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
 
 }
 
@@ -50,6 +33,8 @@ h5{
 .row_setup{
     display: flex;
     flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 100%;
 }
 
@@ -84,10 +69,10 @@ input  {
 
 
 button {
-    width: 100%;
+    width: 25%;
     border-radius: 0.5em;
     height: 2em;
-    margin: 0.25em;
+    margin-top: 0.25em;
     border: none;
     background-color: #007bff;
     color: white;
@@ -100,7 +85,8 @@ button:hover {
     background-color: #0056b3;
 }
 
+
+
 .icon_space{
     margin-inline-end: 1em;
 }
-

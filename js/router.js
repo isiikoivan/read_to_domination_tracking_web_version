@@ -68,11 +68,40 @@ $(document).on('click', '#book_chapter', function (e) {
     navigationToNextPage(url, style_files);
 
 })
+$(document).on('click', '#create_chapter', function (e) {
+    e.preventDefault();
+    console.log(" to create chapter ");
+    let url = 'view/create_chapter.php';
+    let style_files = ['fontawesome_6/all.css','view/css/create_chapter.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
+
+$(document).on('click', '#view_verses', function (e) {
+    e.preventDefault();
+    console.log(" to view verses ");
+    let url = 'view/verse.php';
+    let style_files = ['fontawesome_6/all.css','view/css/verse.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
+
+$(document).on('click', '#create_verse', function (e) {
+    e.preventDefault();
+    console.log(" to create verses ");
+    let url = 'view/create_verse.php';
+    let style_files = ['fontawesome_6/all.css','view/css/create_verse.css','view/css/sidebar.css','view/css/main.css'];
+    navigationToNextPage(url, style_files);
+
+})
 
 
 $(document).on('click', '#logout', function (e) {
     e.preventDefault();
-    console.log("log out")
+    console.log(" to log out ");
+    let url = 'view/landingpage.php';
+    let style_files = ['fontawesome_6/all.css','view/css/landing_page.css.css'];
+    navigationToNextNoPage(url, style_files);
 
 })
 
@@ -97,5 +126,31 @@ function navigationToNextPage(next_page_url, css_files) {
                 class: 'dynamic-style'
             }).appendTo('head');
         });
+
+}
+
+
+
+function navigationToNextNoPage(next_page_url, css_files) {
+    console.log(`Navigating to ${next_page_url}`);
+
+    // Optional: store state before leaving
+    // localStorage.setItem('someKey', 'someValue');
+
+    // Navigate to the next page
+    window.location.href = next_page_url;
+    // Remove all previously added dynamic styles (assuming they have a common class)
+    $('link.dynamic-style').remove();
+
+    // Add each CSS file passed in the array
+
+    css_files.forEach(function (css_file) {
+        $('<link>', {
+            rel: 'stylesheet',
+            type: 'text/css',
+            href: css_file,
+            class: 'dynamic-style'
+        }).appendTo('head');
+    });
 
 }

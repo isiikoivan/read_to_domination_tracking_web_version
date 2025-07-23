@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Add Chapter</title>
-    <link href="css/create_chapter.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../fontawesome_6/all.css" type="text/css">
-
-</head>
-<body>
+<div class="form_page">
 <div class="register_class">
     <h5><i class="fa-solid fa-plus"></i> Create Chapter</h5>
     <hr>
@@ -30,5 +21,5 @@
     </div>
 
 </div>
-</body>
-</html>
+</div>
+

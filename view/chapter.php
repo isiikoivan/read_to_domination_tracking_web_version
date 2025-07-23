@@ -32,7 +32,7 @@
         <div class="chapter_card">
             <span>Chapter. 1</span>
             <span>Ver. 20</span>
-            <a href="verse.html"><i class="fa fa-eye"></i></a>
+            <a id="view_verses"><i class="fa fa-eye"></i></a>
            <input type="checkbox" />
 
         </div>
